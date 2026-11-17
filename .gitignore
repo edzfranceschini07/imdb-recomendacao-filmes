@@ -1,0 +1,11 @@
+# Dados brutos do IMDb (grandes demais para o GitHub)
+dados_brutos/
+*.tsv
+*.tsv.gz
+*.zip
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
