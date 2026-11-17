@@ -1,0 +1,207 @@
+=== Seção 4.3 / 5.1 - Base final ===
+[OK    ] Filmes: obtido=14375  esperado=14375
+[DIFERE] Colunas: obtido=16  esperado=15
+[OK    ] Gêneros distintos: obtido=24  esperado=24
+[OK    ] tconst únicos: obtido=14375  esperado=14375
+[OK    ] Todos titleType = movie: obtido=True  esperado=True
+[OK    ] Todos isAdult = 0: obtido=True  esperado=True
+
+=== Tabela 2 - Estatísticas descritivas ===
+[OK    ] Ano - min: obtido=1915  esperado=1915
+[OK    ] Ano - median: obtido=2006.0  esperado=2006
+[OK    ] Ano - mean: obtido=2000.12  esperado=2000.12
+[OK    ] Ano - max: obtido=2022  esperado=2022
+[OK    ] Duração - min: obtido=50  esperado=50
+[OK    ] Duração - median: obtido=104.0  esperado=104
+[OK    ] Duração - mean: obtido=108.56  esperado=108.56
+[OK    ] Duração - max: obtido=288  esperado=288
+[OK    ] Nota - min: obtido=1.0  esperado=1.0
+[OK    ] Nota - median: obtido=6.6  esperado=6.6
+[OK    ] Nota - mean: obtido=6.55  esperado=6.55
+[OK    ] Nota - max: obtido=9.7  esperado=9.7
+[OK    ] Votos - min: obtido=5288  esperado=5288
+[OK    ] Votos - median: obtido=17382.0  esperado=17382
+[OK    ] Votos - mean: obtido=61609.51  esperado=61609.51
+[OK    ] Votos - max: obtido=2578898  esperado=2578898
+[OK    ] Duração - 1º quartil: obtido=94.0  esperado=94
+[OK    ] Duração - 3º quartil: obtido=118.0  esperado=118
+
+=== Seção 5.1 - Direção e elenco ===
+[OK    ] Elenco com 3: obtido=13958  esperado=13958
+[OK    ] Elenco com 1: obtido=42  esperado=42
+[OK    ] Elenco com 2: obtido=39  esperado=39
+[OK    ] Elenco vazio: obtido=336  esperado=336
+[OK    ] Sem diretores: obtido=3  esperado=3
+
+=== Tabela 3 - Gêneros ===
+[OK    ] Drama - filmes: obtido=8094  esperado=8094
+[OK    ] Drama - nota média: obtido=6.81  esperado=6.81
+[OK    ] Comedy - filmes: obtido=5132  esperado=5132
+[OK    ] Comedy - nota média: obtido=6.38  esperado=6.38
+[OK    ] Action - filmes: obtido=3242  esperado=3242
+[OK    ] Action - nota média: obtido=6.31  esperado=6.31
+[OK    ] Crime - filmes: obtido=2862  esperado=2862
+[OK    ] Crime - nota média: obtido=6.61  esperado=6.61
+[OK    ] Romance - filmes: obtido=2495  esperado=2495
+[OK    ] Romance - nota média: obtido=6.61  esperado=6.61
+[OK    ] Thriller - filmes: obtido=2345  esperado=2345
+[OK    ] Thriller - nota média: obtido=6.29  esperado=6.29
+[OK    ] Adventure - filmes: obtido=2135  esperado=2135
+[OK    ] Adventure - nota média: obtido=6.41  esperado=6.41
+[OK    ] Horror - filmes: obtido=1782  esperado=1782
+[OK    ] Horror - nota média: obtido=5.86  esperado=5.86
+[OK    ] Mystery - filmes: obtido=1373  esperado=1373
+[OK    ] Mystery - nota média: obtido=6.38  esperado=6.38
+[OK    ] Fantasy - filmes: obtido=991  esperado=991
+[OK    ] Fantasy - nota média: obtido=6.24  esperado=6.24
+[OK    ] Biography - filmes: obtido=960  esperado=960
+[OK    ] Biography - nota média: obtido=7.07  esperado=7.07
+[OK    ] Sci-Fi - filmes: obtido=939  esperado=939
+[OK    ] Sci-Fi - nota média: obtido=6.1  esperado=6.1
+[OK    ] Top 12 na ordem do artigo: obtido=['Drama', 'Comedy', 'Action', 'Crime', 'Romance', 'Thriller', 'Adventure', 'Horror', 'Mystery', 'Fantasy', 'Biography', 'Sci-Fi']  esperado=['Drama', 'Comedy', 'Action', 'Crime', 'Romance', 'Thriller', 'Adventure', 'Horror', 'Mystery', 'Fantasy', 'Biography', 'Sci-Fi']
+
+=== Tabela 4 - Décadas ===
+[OK    ] 1910 - filmes: obtido=3  esperado=3
+[OK    ] 1910 - nota média: obtido=7.07  esperado=7.07
+[OK    ] 1920 - filmes: obtido=50  esperado=50
+[OK    ] 1920 - nota média: obtido=7.69  esperado=7.69
+[OK    ] 1930 - filmes: obtido=153  esperado=153
+[OK    ] 1930 - nota média: obtido=7.42  esperado=7.42
+[OK    ] 1940 - filmes: obtido=242  esperado=242
+[OK    ] 1940 - nota média: obtido=7.43  esperado=7.43
+[OK    ] 1950 - filmes: obtido=356  esperado=356
+[OK    ] 1950 - nota média: obtido=7.36  esperado=7.36
+[OK    ] 1960 - filmes: obtido=496  esperado=496
+[OK    ] 1960 - nota média: obtido=7.22  esperado=7.22
+[OK    ] 1970 - filmes: obtido=674  esperado=674
+[OK    ] 1970 - nota média: obtido=7.05  esperado=7.05
+[OK    ] 1980 - filmes: obtido=1187  esperado=1187
+[OK    ] 1980 - nota média: obtido=6.59  esperado=6.59
+[OK    ] 1990 - filmes: obtido=1944  esperado=1944
+[OK    ] 1990 - nota média: obtido=6.52  esperado=6.52
+[OK    ] 2000 - filmes: obtido=3487  esperado=3487
+[OK    ] 2000 - nota média: obtido=6.43  esperado=6.43
+[OK    ] 2010 - filmes: obtido=4953  esperado=4953
+[OK    ] 2010 - nota média: obtido=6.4  esperado=6.4
+[OK    ] 2020 - filmes: obtido=830  esperado=830
+[OK    ] 2020 - nota média: obtido=6.29  esperado=6.29
+
+=== Seções 5.4 e 5.5 - Correlações ===
+[OK    ] Pearson duração x nota: obtido=0.309  esperado=0.309
+[OK    ] Spearman duração x nota: obtido=0.331  esperado=0.331
+[OK    ] Pearson ln(1+votos) x nota: obtido=0.214  esperado=0.214
+[OK    ] Spearman votos x nota: obtido=0.171  esperado=0.171
+
+=== Tabela 5 - Métricas dos modelos ===
+[OK    ] Modelo A - CG@5: obtido=1.0  esperado=1.0
+[OK    ] Modelo A - SE@5: obtido=0.04  esperado=0.04
+[OK    ] Modelo A - DG@5: obtido=2.61  esperado=2.61
+[OK    ] Modelo B - CG@5: obtido=1.0  esperado=1.0
+[OK    ] Modelo B - SE@5: obtido=0.246  esperado=0.246
+[OK    ] Modelo B - DG@5: obtido=2.6  esperado=2.6
+[OK    ] Pares com equipe em comum - A (de 500): obtido=20  esperado=20
+[OK    ] Pares com equipe em comum - B (de 500): obtido=123  esperado=123
+
+=== Tabela 6 e Apêndice A - Recomendações ===
+[OK    ] connie/A/#1 título: obtido=kill your friends  esperado=kill your friends
+[OK    ] connie/A/#1 similaridade: obtido=0.9979  esperado=0.9979
+[OK    ] connie/A/#2 título: obtido=sound of noise  esperado=sound of noise
+[OK    ] connie/A/#2 similaridade: obtido=0.9945  esperado=0.9945
+[OK    ] connie/A/#3 título: obtido=diva  esperado=diva
+[OK    ] connie/A/#3 similaridade: obtido=0.9868  esperado=0.9868
+[OK    ] connie/A/#4 título: obtido=the adventure of sherlock holmes smarter brother  esperado=the adventure of sherlock holmes smarter brother
+[OK    ] connie/A/#4 similaridade: obtido=0.9855  esperado=0.9855
+[OK    ] connie/A/#5 título: obtido=airheads  esperado=airheads
+[OK    ] connie/A/#5 similaridade: obtido=0.9848  esperado=0.9848
+[OK    ] connie/B/#1 título: obtido=kill your friends  esperado=kill your friends
+[OK    ] connie/B/#1 similaridade: obtido=0.8242  esperado=0.8242
+[OK    ] connie/B/#2 título: obtido=the adventure of sherlock holmes smarter brother  esperado=the adventure of sherlock holmes smarter brother
+[OK    ] connie/B/#2 similaridade: obtido=0.8154  esperado=0.8154
+[OK    ] connie/B/#3 título: obtido=diva  esperado=diva
+[OK    ] connie/B/#3 similaridade: obtido=0.8152  esperado=0.8152
+[OK    ] connie/B/#4 título: obtido=airheads  esperado=airheads
+[OK    ] connie/B/#4 similaridade: obtido=0.8132  esperado=0.8132
+[OK    ] connie/B/#5 título: obtido=be cool  esperado=be cool
+[OK    ] connie/B/#5 similaridade: obtido=0.8114  esperado=0.8114
+[OK    ] mcqueen/A/#1 título: obtido=val  esperado=val
+[OK    ] mcqueen/A/#1 similaridade: obtido=0.9993  esperado=0.9993
+[OK    ] mcqueen/A/#2 título: obtido=de palma  esperado=de palma
+[OK    ] mcqueen/A/#2 similaridade: obtido=0.9985  esperado=0.9985
+[OK    ] mcqueen/A/#3 título: obtido=listen to me marlon  esperado=listen to me marlon
+[OK    ] mcqueen/A/#3 similaridade: obtido=0.9978  esperado=0.9978
+[OK    ] mcqueen/A/#4 título: obtido=i am greta  esperado=i am greta
+[OK    ] mcqueen/A/#4 similaridade: obtido=0.9968  esperado=0.9968
+[OK    ] mcqueen/A/#5 título: obtido=life itself  esperado=life itself
+[OK    ] mcqueen/A/#5 similaridade: obtido=0.9959  esperado=0.9959
+[OK    ] mcqueen/B/#1 título: obtido=i am greta  esperado=i am greta
+[OK    ] mcqueen/B/#1 similaridade: obtido=0.8948  esperado=0.8948
+[OK    ] mcqueen/B/#2 título: obtido=life itself  esperado=life itself
+[OK    ] mcqueen/B/#2 similaridade: obtido=0.8935  esperado=0.8935
+[OK    ] mcqueen/B/#3 título: obtido=steve jobs the man in the machine  esperado=steve jobs the man in the machine
+[OK    ] mcqueen/B/#3 similaridade: obtido=0.8889  esperado=0.8889
+[OK    ] mcqueen/B/#4 título: obtido=won t you be my neighbor  esperado=won t you be my neighbor
+[OK    ] mcqueen/B/#4 similaridade: obtido=0.8866  esperado=0.8866
+[OK    ] mcqueen/B/#5 título: obtido=the wolfpack  esperado=the wolfpack
+[OK    ] mcqueen/B/#5 similaridade: obtido=0.8865  esperado=0.8865
+[OK    ] altitude/A/#1 título: obtido=await further instructions  esperado=await further instructions
+[OK    ] altitude/A/#1 similaridade: obtido=0.999  esperado=0.999
+[OK    ] altitude/A/#2 título: obtido=banshee chapter  esperado=banshee chapter
+[OK    ] altitude/A/#2 similaridade: obtido=0.9982  esperado=0.9982
+[OK    ] altitude/A/#3 título: obtido=eden log  esperado=eden log
+[OK    ] altitude/A/#3 similaridade: obtido=0.9979  esperado=0.9979
+[OK    ] altitude/A/#4 título: obtido=area 51  esperado=area 51
+[OK    ] altitude/A/#4 similaridade: obtido=0.9978  esperado=0.9978
+[OK    ] altitude/A/#5 título: obtido=what lies below  esperado=what lies below
+[OK    ] altitude/A/#5 similaridade: obtido=0.9975  esperado=0.9975
+[OK    ] altitude/B/#1 título: obtido=what lies below  esperado=what lies below
+[OK    ] altitude/B/#1 similaridade: obtido=0.8303  esperado=0.8303
+[OK    ] altitude/B/#2 título: obtido=area 51  esperado=area 51
+[OK    ] altitude/B/#2 similaridade: obtido=0.8299  esperado=0.8299
+[OK    ] altitude/B/#3 título: obtido=await further instructions  esperado=await further instructions
+[OK    ] altitude/B/#3 similaridade: obtido=0.8297  esperado=0.8297
+[OK    ] altitude/B/#4 título: obtido=phoenix forgotten  esperado=phoenix forgotten
+[OK    ] altitude/B/#4 similaridade: obtido=0.8281  esperado=0.8281
+[OK    ] altitude/B/#5 título: obtido=banshee chapter  esperado=banshee chapter
+[OK    ] altitude/B/#5 similaridade: obtido=0.828  esperado=0.828
+[OK    ] cach/A/#1 título: obtido=we need to talk about kevin  esperado=we need to talk about kevin
+[OK    ] cach/A/#1 similaridade: obtido=0.9977  esperado=0.9977
+[OK    ] cach/A/#2 título: obtido=first reformed  esperado=first reformed
+[OK    ] cach/A/#2 similaridade: obtido=0.9973  esperado=0.9973
+[OK    ] cach/A/#3 título: obtido=the gift  esperado=the gift
+[OK    ] cach/A/#3 similaridade: obtido=0.996  esperado=0.996
+[OK    ] cach/A/#4 título: obtido=copycat  esperado=copycat
+[OK    ] cach/A/#4 similaridade: obtido=0.9957  esperado=0.9957
+[OK    ] cach/A/#5 título: obtido=martha marcy may marlene  esperado=martha marcy may marlene
+[OK    ] cach/A/#5 similaridade: obtido=0.9954  esperado=0.9954
+[OK    ] cach/B/#1 título: obtido=the white ribbon  esperado=the white ribbon
+[OK    ] cach/B/#1 similaridade: obtido=0.8644  esperado=0.8644
+[OK    ] cach/B/#2 título: obtido=we need to talk about kevin  esperado=we need to talk about kevin
+[OK    ] cach/B/#2 similaridade: obtido=0.826  esperado=0.826
+[OK    ] cach/B/#3 título: obtido=tinker tailor soldier spy  esperado=tinker tailor soldier spy
+[OK    ] cach/B/#3 similaridade: obtido=0.8246  esperado=0.8246
+[OK    ] cach/B/#4 título: obtido=the gift  esperado=the gift
+[OK    ] cach/B/#4 similaridade: obtido=0.8243  esperado=0.8243
+[OK    ] cach/B/#5 título: obtido=first reformed  esperado=first reformed
+[OK    ] cach/B/#5 similaridade: obtido=0.8243  esperado=0.8243
+[OK    ] okkadu/A/#1 título: obtido=heropanti  esperado=heropanti
+[OK    ] okkadu/A/#1 similaridade: obtido=0.7875  esperado=0.7875
+[OK    ] okkadu/A/#2 título: obtido=lakshya  esperado=lakshya
+[OK    ] okkadu/A/#2 similaridade: obtido=0.7006  esperado=0.7006
+[OK    ] okkadu/A/#3 título: obtido=arjun reddy  esperado=arjun reddy
+[OK    ] okkadu/A/#3 similaridade: obtido=0.6985  esperado=0.6985
+[OK    ] okkadu/A/#4 título: obtido=sarpatta parambarai  esperado=sarpatta parambarai
+[OK    ] okkadu/A/#4 similaridade: obtido=0.697  esperado=0.697
+[OK    ] okkadu/A/#5 título: obtido=i  esperado=i
+[OK    ] okkadu/A/#5 similaridade: obtido=0.697  esperado=0.697
+[OK    ] okkadu/B/#1 título: obtido=heropanti  esperado=heropanti
+[OK    ] okkadu/B/#1 similaridade: obtido=0.6342  esperado=0.6342
+[OK    ] okkadu/B/#2 título: obtido=ghilli  esperado=ghilli
+[OK    ] okkadu/B/#2 similaridade: obtido=0.6221  esperado=0.6221
+[OK    ] okkadu/B/#3 título: obtido=in your name  esperado=in your name
+[OK    ] okkadu/B/#3 similaridade: obtido=0.5975  esperado=0.5975
+[OK    ] okkadu/B/#4 título: obtido=lakshya  esperado=lakshya
+[OK    ] okkadu/B/#4 similaridade: obtido=0.5894  esperado=0.5894
+[OK    ] okkadu/B/#5 título: obtido=arjun reddy  esperado=arjun reddy
+[OK    ] okkadu/B/#5 similaridade: obtido=0.5875  esperado=0.5875
+
+RESUMO: 189 valores conferem, 1 diferem.

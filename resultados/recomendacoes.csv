@@ -1,0 +1,51 @@
+Modelo,Consulta,Posicao,Recomendacao,Similaridade
+A,Connie and Carla,1,Kill Your Friends,0.9979
+A,Connie and Carla,2,Sound of Noise,0.9945
+A,Connie and Carla,3,Diva,0.9868
+A,Connie and Carla,4,The Adventure of Sherlock Holmes' Smarter Brother,0.9855
+A,Connie and Carla,5,Airheads,0.9848
+A,McQueen,1,Val,0.9993
+A,McQueen,2,De Palma,0.9985
+A,McQueen,3,Listen to Me Marlon,0.9978
+A,McQueen,4,I Am Greta,0.9968
+A,McQueen,5,Life Itself,0.9959
+A,Altitude,1,Await Further Instructions,0.999
+A,Altitude,2,Banshee Chapter,0.9982
+A,Altitude,3,Eden Log,0.9979
+A,Altitude,4,Area 51,0.9978
+A,Altitude,5,What Lies Below,0.9975
+A,Caché (Hidden),1,We Need to Talk About Kevin,0.9977
+A,Caché (Hidden),2,First Reformed,0.9973
+A,Caché (Hidden),3,The Gift,0.996
+A,Caché (Hidden),4,Copycat,0.9957
+A,Caché (Hidden),5,Martha Marcy May Marlene,0.9954
+A,Okkadu,1,Heropanti,0.7875
+A,Okkadu,2,Lakshya,0.7006
+A,Okkadu,3,Arjun Reddy,0.6985
+A,Okkadu,4,Sarpatta Parambarai,0.697
+A,Okkadu,5,I,0.697
+B,Connie and Carla,1,Kill Your Friends,0.8242
+B,Connie and Carla,2,The Adventure of Sherlock Holmes' Smarter Brother,0.8154
+B,Connie and Carla,3,Diva,0.8152
+B,Connie and Carla,4,Airheads,0.8132
+B,Connie and Carla,5,Be Cool,0.8114
+B,McQueen,1,I Am Greta,0.8948
+B,McQueen,2,Life Itself,0.8935
+B,McQueen,3,Steve Jobs: The Man in the Machine,0.8889
+B,McQueen,4,Won't You Be My Neighbor?,0.8866
+B,McQueen,5,The Wolfpack,0.8865
+B,Altitude,1,What Lies Below,0.8303
+B,Altitude,2,Area 51,0.8299
+B,Altitude,3,Await Further Instructions,0.8297
+B,Altitude,4,Phoenix Forgotten,0.8281
+B,Altitude,5,Banshee Chapter,0.828
+B,Caché (Hidden),1,The White Ribbon,0.8644
+B,Caché (Hidden),2,We Need to Talk About Kevin,0.826
+B,Caché (Hidden),3,Tinker Tailor Soldier Spy,0.8246
+B,Caché (Hidden),4,The Gift,0.8243
+B,Caché (Hidden),5,First Reformed,0.8243
+B,Okkadu,1,Heropanti,0.6342
+B,Okkadu,2,Ghilli,0.6221
+B,Okkadu,3,In Your Name,0.5975
+B,Okkadu,4,Lakshya,0.5894
+B,Okkadu,5,Arjun Reddy,0.5875
